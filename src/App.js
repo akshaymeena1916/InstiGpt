@@ -113,29 +113,29 @@ const InstiGPT = () => {
   const drawerWidth = 300
 
   // Sample institute knowledge base
-  const instituteKnowledge = {
-    hostel: `Hostel matters are handled by the hostel office. Here are some key contacts:
-              - Hostel Office: hostel@insti.edu, Phone: 1234567890
-              - Warden: warden@insti.edu
-              Office hours: 9 AM to 5 PM (Monday to Friday)`,
-    academic: `Academic queries can be directed to:
-                - Department office
-                - Institute academic section
-                - Student academic committee
-                Important links:
-                - Academic calendar: https://insti.edu/academic-calendar
-                - Course portal: https://courses.insti.edu`,
-    event: `Upcoming institute events:
-             - Tech Fest: March 15-17
-             - Cultural Fest: April 5-7
-             Check notice boards or the institute app for updates.`,
-    library: `Library information:
-               - Timing: 8 AM to 10 PM (Mon-Sat), 10 AM to 6 PM (Sun)
-               - Contact: library@insti.edu
-               - Online portal: https://library.insti.edu`,
-    default: `I'm still learning about institute matters. Could you please provide more details about your query? 
-               I can help with hostel, academic, event, and library related questions.`,
-  }
+  // const instituteKnowledge = {
+  //   hostel: `Hostel matters are handled by the hostel office. Here are some key contacts:
+  //             - Hostel Office: hostel@insti.edu, Phone: 1234567890
+  //             - Warden: warden@insti.edu
+  //             Office hours: 9 AM to 5 PM (Monday to Friday)`,
+  //   academic: `Academic queries can be directed to:
+  //               - Department office
+  //               - Institute academic section
+  //               - Student academic committee
+  //               Important links:
+  //               - Academic calendar: https://insti.edu/academic-calendar
+  //               - Course portal: https://courses.insti.edu`,
+  //   event: `Upcoming institute events:
+  //            - Tech Fest: March 15-17
+  //            - Cultural Fest: April 5-7
+  //            Check notice boards or the institute app for updates.`,
+  //   library: `Library information:
+  //              - Timing: 8 AM to 10 PM (Mon-Sat), 10 AM to 6 PM (Sun)
+  //              - Contact: library@insti.edu
+  //              - Online portal: https://library.insti.edu`,
+  //   default: `I'm still learning about institute matters. Could you please provide more details about your query? 
+  //              I can help with hostel, academic, event, and library related questions.`,
+  // }
 
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" })
