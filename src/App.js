@@ -269,24 +269,24 @@ const InstiGPT = () => {
     }
   };
   
-  const checkLocalKnowledge = (message) => {
-    const lowerMessage = message.toLowerCase();
+  // const checkLocalKnowledge = (message) => {
+  //   const lowerMessage = message.toLowerCase();
     
-    if (lowerMessage.includes("hostel")) {
-      return instituteKnowledge["hostel"];
-    }
-    if (lowerMessage.includes("academic") || lowerMessage.includes("course")) {
-      return instituteKnowledge["academic"];
-    }
-    if (lowerMessage.includes("event") || lowerMessage.includes("fest")) {
-      return instituteKnowledge["event"];
-    }
-    if (lowerMessage.includes("library") || lowerMessage.includes("book")) {
-      return instituteKnowledge["library"];
-    }
+  //   if (lowerMessage.includes("hostel")) {
+  //     return instituteKnowledge["hostel"];
+  //   }
+  //   if (lowerMessage.includes("academic") || lowerMessage.includes("course")) {
+  //     return instituteKnowledge["academic"];
+  //   }
+  //   if (lowerMessage.includes("event") || lowerMessage.includes("fest")) {
+  //     return instituteKnowledge["event"];
+  //   }
+  //   if (lowerMessage.includes("library") || lowerMessage.includes("book")) {
+  //     return instituteKnowledge["library"];
+  //   }
     
-    return instituteKnowledge["default"]; // Fallback to default message
-  };
+  //   return instituteKnowledge["default"]; // Fallback to default message
+  // };
 
   const formatTime = (date) => {
     return date.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })
